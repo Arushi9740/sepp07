@@ -1,6 +1,6 @@
 import sepp03 as s3
 
-def add_beneficiary_valid():
+def test_add_beneficiary_valid():
     assert s3.add_beneficiary("abc","123456789") == "beneficiary added"
 
 # def view_beneficiary_invalid():
